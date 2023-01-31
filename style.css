@@ -8,13 +8,25 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 
 }
 
 h1 {
+    display: flex;
     font-size: 3rem;
     color: #ffffffff;
     font-style: italic;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .buffer {
